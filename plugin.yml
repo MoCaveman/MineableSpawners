@@ -1,0 +1,207 @@
+name: MineableSpawners
+version: 1.3
+main: net.momentonetwork.MineableSpawners
+authors: [fergydanny]
+description: A simplistic silk spawner plugin
+website: https://momentonetwork.net
+api-version: 1.13
+commands:
+  spawner:
+  spawnergive:
+Permission:
+  MSallow.spawn.* :
+    description: Allow to spawn all supported creatures
+    default: op
+    children:
+      MSallow.spawn.armorstand:
+        description: Allow to spawn armorstand
+        default: op    
+      MSallow.spawn.bat:
+        description: Allow to spawn bats
+        default: op
+      MSallow.spawn.blaze:
+        description: Allow to spawn blazes
+        default: op
+      MSallow.spawn.boat:
+        description: Allow to spawn boat
+        default: op        
+      MSallow.spawn.cave_spider:
+        description: Allow to spawn cave spiders
+        default: op
+      MSallow.spawn.chicken:
+        description: Allow to spawn chickens
+        default: op
+      MSallow.spawn.chicken_Jockey:
+        description: Allow to spawn chicken_Jockey
+        default: op
+      MSallow.spawn.cod:
+        description: Allow to spawn cod fish
+        default: op
+      MSallow.spawn.cow:
+        description: Allow to spawn cows
+        default: op
+      MSallow.spawn.creeper:
+        description: Allow to spawn creepers
+        default: op
+      MSallow.spawn.dolphin:
+        description: Allow to spawn dolphins
+        default: op
+      MSallow.spawn.Donkey:
+        description: Allow to spawn donkey
+        default: op
+      MSallow.spawn.drowned:
+        description: Allow to spawn drowned
+        default: op
+      MSallow.spawn.elder_guardian:
+        description: Allow to spawn elder guardians
+        default: op
+      MSallow.spawn.ender_dragon:
+        description: Allow to spawn ender dragon
+        default: op
+      MSallow.spawn.enderman:
+        description: Allow to spawn endermen
+        default: op
+      MSallow.spawn.endermite:
+        description: Allow to spawn endermites
+        default: op
+      MSallow.spawn.evoker:
+        description: Allow to spawn evokers
+        default: op
+      MSallow.spawn.furnaceminecart:
+        description: Allow to spawn furnaceminecart
+        default: op        
+      MSallow.spawn.ghast:
+        description: Allow to spawn ghast
+        default: op
+      MSallow.spawn.giant:
+        description: Allow to spawn giants
+        default: op
+      MSallow.spawn.guardian:
+        description: Allow to spawn guardians
+        default: op
+      MSallow.spawn.Horse:
+        description: Allow to spawn horse
+        default: op
+      MSallow.spawn.husk:
+        description: Allow to spawn husks
+        default: op
+      MSallow.spawn.illusioner:
+        description: Allow to spawn illusioners
+        default: op
+      MSallow.spawn.iron_golem:
+        description: Allow to spawn iron golems
+        default: op
+      MSallow.spawn.llama:
+        description: Allow to spawn llamas
+        default: op
+      MSallow.spawn.magma_cube:
+        description: Allow to spawn magma cubes
+        default: op
+      MSallow.spawn.mooshroom:
+        description: Allow to spawn mooshrooms
+        default: op
+      MSallow.spawn.mule:
+        description: Allow to spawn mule
+        default: op        
+      MSallow.spawn.ocelot:
+        description: Allow to spawn tamed ocelots
+        default: op
+      MSallow.spawn.parrot:
+        description: Allow to spawn parrots
+        default: op
+      MSallow.spawn.phantom:
+        description: Allow to spawn phantoms
+        default: op
+      MSallow.spawn.pig:
+        description: Allow to spawn pigs
+        default: op
+      MSallow.spawn.polar_bear:
+        description: Allow to spawn polar bears
+        default: op
+      MSallow.spawn.pufferfish:
+        description: Allow to spawn pufferfish
+        default: op
+      MSallow.spawn.rabbit:
+        description: Allow to spawn rabbits
+        default: op
+      MSallow.spawn.salmon:
+        description: Allow to spawn salmon
+        default: op
+      MSallow.spawn.sheep:
+        description: Allow to spawn sheep
+        default: op
+      MSallow.spawn.shulker:
+        description: Allow to spawn shulkers
+        default: op
+      MSallow.spawn.silverfish:
+        description: Allow to spawn silverfish
+        default: op
+      MSallow.spawn.skeleton:
+        description: Allow to spawn skeletons
+        default: op
+      MSallow.spawn.skeleton_horse:
+        description: Allow to spawn skeleton horses
+        default: op
+      MSallow.spawn.slime:
+        description: Allow to spawn slimes
+        default: op
+      MSallow.spawn.snow_golem:
+        description: Allow to spawn snowman
+        default: op
+      MSallow.spawn.spawnerminecart:
+        description: Allow to spawn spawnerminecart
+        default: op        
+      MSallow.spawn.spider:
+        description: Allow to spawn spiders
+        default: op
+      MSallow.spawn.Spider_Jockey:
+        description: Allow to spawn spider_Jockey
+        default: op     
+      MSallow.spawn.squid:
+        description: Allow to spawn squids
+        default: op
+      MSallow.spawn.stray:
+        description: Allow to spawn strays
+        default: op
+      MSallow.spawn.TNTminecart:
+        description: Allow to spawn TNTminecart
+        default: op        
+      MSallow.spawn.tropical_fish:
+        description: Allow to spawn tropical fish
+        default: op
+      MSallow.spawn.turtle:
+        description: Allow to spawn turtles
+        default: op
+      MSallow.spawn.vex:
+        description: Allow to spawn vex
+        default: op
+      MSallow.spawn.villager:
+        description: Allow to spawn villagers
+        default: op
+      MSallow.spawn.vindicator:
+        description: Allow to spawn vindicators
+        default: op
+      MSallow.spawn.witch:
+        description: Allow to spawn witches
+        default: op
+      MSallow.spawn.wither:
+        description: Allow to spawn withers
+        default: op
+      MSallow.spawn.wither_skeleton:
+        description: Allow to spawn wither skeletons
+        default: op
+      MSallow.spawn.wolf:
+        description: Allow to spawn tamed wolves
+        default: op
+      MSallow.spawn.zombie:
+        description: Allow to spawn zombies
+        default: op
+      MSallow.spawn.zombie_horse:
+        description: Allow to spawn zombie horses
+        default: op
+      MSallow.spawn.zombie_pigman:
+        description: Allow to spawn zombie pigman
+        default: op
+      MSallow.spawn.zombie_villager:
+        description: Allow to spawn zombie villagers
+        default: op
